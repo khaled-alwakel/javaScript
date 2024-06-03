@@ -1,10 +1,10 @@
 "use strict";
 
 /*
-<<<<<<< HEAD
+
 /////////////////////////////////////
  Constructor Functions and the new Operator
-=======
+
 ///////////////////////////////////////
 // Constructor Functions and the new Operator
 >>>>>>> 6265ca4a6deb5823b594b315585172ed760b3e92
@@ -112,13 +112,10 @@ const h1 = document.querySelector('h1');
 console.dir(x => x + 1);
 */
 
-<<<<<<< HEAD
 /////////////////////////////////////
- Coding Challenge #1
-=======
+
 ///////////////////////////////////////
 // Coding Challenge #1
->>>>>>> 6265ca4a6deb5823b594b315585172ed760b3e92
 
 /* 
 1. Use a constructor function to implement a Car. A car has a make and a speed property. The speed property is the current speed of the car in km/h;
@@ -331,10 +328,9 @@ const sarah = Object.create(PersonProto);
 sarah.init('Sarah', 1979);
 sarah.calcAge();
 */
-<<<<<<< HEAD
 
 /////////////////////////////////////
- Coding Challenge #2
+//  Coding Challenge #2
 
 /* 
 1. Re-create challenge 1, but this time using an ES6 class;
@@ -485,7 +481,7 @@ console.log(mike instanceof Object);
 */
 
 /////////////////////////////////////
- Coding Challenge #3
+//  Coding Challenge #3
 
 /* 
 1. Use a constructor function to implement an Electric Car (called EV) as a CHILD "class" of Car. Besides a make and current speed, the EV also has the current battery charge in % ('charge' property);
@@ -871,13 +867,11 @@ acc1.deposit(300).deposit(500).withdraw(35).requestLoan(25000).withdraw(4000);
 console.log(acc1.getMovements());
 */
 
-<<<<<<< HEAD
-/////////////////////////////////////
- Coding Challenge #4
-=======
+
+
 ///////////////////////////////////////
 // Coding Challenge #4
->>>>>>> 6265ca4a6deb5823b594b315585172ed760b3e92
+
 
 /* 
 1. Re-create challenge #3, but this time using ES6 classes: create an 'EVCl' child class of the 'CarCl' class
@@ -947,7 +941,6 @@ console.log(rivian);
  console.log(rivian.#charge);
 =======
 // console.log(rivian.#charge);
->>>>>>> 6265ca4a6deb5823b594b315585172ed760b3e92
 rivian
   .accelerate()
   .accelerate()

@@ -1,5 +1,4 @@
-```toc
-```
+
 ## What is the different between null and undefined ?
 
 Before understanding the differences between them we must understand the 
@@ -135,7 +134,7 @@ console.log(2 === 2) // true
 
 </div>
 
-##  Why does it return **false** when comparing two similar objects in JavaScript?
+## Why does it return **false** when comparing two similar objects in JavaScript?
 
 Look at the example below.  
 
@@ -146,7 +145,6 @@ let car3 = car1 ;
 
 console.log(car1 === car2); // false
 console.log(car1 === car3); // true 
-
 ```
 
 JavaScript compares _objects_ and _primitives_ differently.
@@ -166,5 +164,5 @@ That's why the first `console.log` statement returns `false` and the second�
 
 </div>
 
-
+Happy coding, see you later 😀
 

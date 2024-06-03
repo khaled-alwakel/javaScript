@@ -1,9 +1,17 @@
-let promise = new Promise((resolve, reject) => {
-  setTimeout(() => resolve("done!"), 1000);
-});
+// challenge 
+const string = "i love javascript"
 
-// reject runs the second function in .then
-promise.then(
-  (result) => console.log(result), // doesn't run
-  (error) => console.log(error) // shows "Error: Whoops!" after 1 second
-);
+const charCounter={}
+
+function getCount(char){
+  let count =0
+  for(const i of string){
+    if(i==char) count++
+  }
+  return count
+}
+for (const i of string){
+
+  charCounter[i]= getCount(i)
+}
+console.log(charCounter)

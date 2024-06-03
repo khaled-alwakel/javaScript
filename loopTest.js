@@ -59,3 +59,22 @@ for (const [key, value] of myMap) {
   console.log(key, value);
 }
 
+
+// challenge 
+const string = "hello world"
+
+const frequencyCounter={}
+
+function getCount(char){
+  let count =0
+  for(const i of string){
+    if(i==char) count++
+  }
+  return count
+}
+for (const i of string){
+
+  frequencyCounter[i]= getCount(i)
+}
+console.log(frequencyCounter)
+

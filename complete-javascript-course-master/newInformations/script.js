@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
  // Reading Files Using JSON.parse and Invert It To Json file
 // var fs = require("fs");
 // const dataObj = JSON.parse(fs.readFileSync(`${__dirname}/test.json`));
@@ -56,7 +56,7 @@ console.log(speedUp.call(nissan, 180))
 
 const x = JSON.parse('./test.json')
 console.log(x)
-=======
+
 const { prototype } = require("events");
 var fs = require("fs");
 const data = JSON.parse(fs.readFileSync(`${__dirname}/test.json`));
@@ -89,4 +89,3 @@ console.log(sam);
 console.log(sam.speak());
 
 
->>>>>>> 6265ca4a6deb5823b594b315585172ed760b3e92
