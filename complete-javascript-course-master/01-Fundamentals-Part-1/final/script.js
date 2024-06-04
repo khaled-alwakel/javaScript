@@ -65,12 +65,12 @@ var job = 'programmer';
 job = 'teacher'
 
 lastName = 'Schmedtmann';
-console.log(lastName);
+console.log(lastName); 
 
 ////////////////////////////////////
 // Basic Operators
-// Math operators
-const now = 2037;
+// Math operators 
+const now = 2037;  
 const ageJonas = now - 1991;
 const ageSarah = now - 2018;
 console.log(ageJonas, ageSarah);
@@ -466,3 +466,6 @@ const bill = 430;
 const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
 console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
 */
+
+
+

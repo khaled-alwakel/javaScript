@@ -13,8 +13,7 @@
 //    console.log(output);
 //
 //    if (birthYear >= 1981 && birthYear <= 1996) {
-//      var millenial = true;
-//      // Creating NEW variable with same name as outer scope's variable
+//      var millenial = true; // Creating NEW variable with same name as outer scope's variable
 //      const firstName = 'Steven';
 //
 //      // Reasssigning outer scope's variable
