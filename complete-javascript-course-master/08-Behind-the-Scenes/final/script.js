@@ -44,16 +44,17 @@
 
 
 /////////////////
-// Hoisting and TDZ in Practice
+//* Hoisting and TDZ in Practice
 //
 // Variables
-//console.log(me);
-// console.log(job);
-// console.log(year);
-//
-//var me = 'Jonas';
-//let job = 'teacher';
-//const year = 1991;
+// console.log(x) // error
+console.log(me); // undefined
+console.log(job);
+console.log(year);
+
+var me = 'Jonas';
+let job = 'teacher';
+const year = 1991;
 
 // Functions
 //console.log(addDecl(2, 3));
@@ -234,4 +235,4 @@ jessicaCopy.family.push('John');
 console.log('Before marriage:', jessica2);
 console.log('After marriage: ', jessicaCopy);
 
-// this keyword will be  lexical the inheritance that will be intailized ikj
+// this keyword will be  lexical the inheritance that will be initialized 

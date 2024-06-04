@@ -130,7 +130,7 @@ class SinglyLinkedList {
     // swap head and tail
     let traversal = this.head;
     this.head = this.tail;
-    this.tail = traversal;
+    this.tail = traversal; // i can't say this.tail = this.head, because it will point to this.tail
     let previousTraversal = null;
     let nextTraversal = null;
     // loop over list and make current.next = this.tail //* while(traversal != null  )
@@ -165,6 +165,3 @@ console.log(list.pushNode(200));
 // console.log(list);
 
 
-function* name(params) {
-  if params === 'o' return 'hi'
-}
