@@ -7,7 +7,7 @@
 
 ///////////////////////////////////////
 // Constructor Functions and the new Operator
->>>>>>> 6265ca4a6deb5823b594b315585172ed760b3e92
+
 const Person = function (firstName, birthYear) {
   // Instance properties
   this.firstName = firstName;
