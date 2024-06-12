@@ -107,7 +107,6 @@ const yearsUntilTheRetirement = function (birthYeah, firstName) {
     return -1;
   }
 }
-
 console.log(yearsUntilTheRetirement(1991, 'Jonas'));
 console.log(yearsUntilTheRetirement(1950, 'Mike'));
 
